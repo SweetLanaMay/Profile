@@ -1,0 +1,26 @@
+.transactionHistory {
+    width: 600px;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    margin: auto;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .transactionHistory th,
+  .transactionHistory td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    color: #717575;
+  }
+  
+  .transactionHistory th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .transactionHistory tr:hover {
+    background-color: #c0c0e7;
+  }
+  
