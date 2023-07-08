@@ -1,5 +1,4 @@
 import PropTypes from 'prop-types';
-import 'modern-normalize/modern-normalize.css';
 import css from './Profile.module.css';
 
 const Profile = ({ username, tag, location, avatar, stats }) => {
